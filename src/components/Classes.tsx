@@ -36,9 +36,9 @@ export function Classes() {
             <span className="text-orange"> from expert?</span>
           </h2>
 
-          <div className="mt-20 w-full flex justify-between gap-16">
+          <div className="mt-20 w-full flex justify-between gap-16 h-80">
             {classesCardsDetails.map((classesCardDetail, index) => (
-              <div key={index}>
+              <div key={index} className="h-full">
                 <ClassesCard icon={classesCardDetail.icon} heading={classesCardDetail.heading} content={classesCardDetail.content} />
               </div>
             ))}
