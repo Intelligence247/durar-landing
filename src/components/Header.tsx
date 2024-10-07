@@ -13,7 +13,7 @@ export function Header() {
 
       <nav className="flex items-center justify-center gap-12 text-high font-medium text-lg">
         {headerLinks.map((headerLink) => (
-          <Link key={headerLink.url} href={headerLink.url} className="hover:underline hover:underline-offset-4">
+          <Link key={headerLink.url} href={headerLink.url} className="hover:underline hover:underline-offset-4 decoration-2">
             {headerLink.label}
           </Link>
         ))}

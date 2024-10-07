@@ -3,6 +3,7 @@ import { Hero } from "@/components/Hero";
 import { Partners } from "@/components/Partners";
 import { Classes } from "@/components/Classes";
 import { HaveAllah } from "@/components/HaveAllah";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
       <Classes />
 
       <HaveAllah />
+
+      <Footer />
     </>
   );
 }
