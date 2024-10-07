@@ -52,6 +52,15 @@ h6 {
   isolation: isolate;
 }
 
+.bg-container {
+  background-image: linear-gradient(rgb(255, 249, 242, 1), rgb(255, 249, 242, 1)), url("/image2.svg");
+  background-blend-mode: lighten;
+  background-size: cover;
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
