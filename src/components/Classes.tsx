@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { ClassesCard } from "@/components/ClassesCard";
 import { SectionBadge } from "@/components/SectionBadge";
 
@@ -25,7 +27,10 @@ export function Classes() {
       <div className="w-full max-w-[1200px] mx-auto text-center">
         <SectionBadge label="Why choose Us" />
 
-        <div className="mt-14">
+        <div className="mt-14 relative">
+          <Image width={62} height={62} alt={"Decorator Icon"} src={"checkcircle.svg"} className="absolute -top-14 left-32" />
+          <Image width={90} height={90} alt={"Decorator Icon"} src={"achievementcup.svg"} className="absolute right-12 top-14" />
+
           <h2 className="w-3/5 mx-auto text-darkgreen font-semibold text-[50px] leading-[75px]">
             Can’t fit learning into your <span className="text-orange">busy</span> schedule and you want to learn
             <span className="text-orange"> from expert?</span>
