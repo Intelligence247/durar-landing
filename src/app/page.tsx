@@ -4,6 +4,7 @@ import { Partners } from "@/components/Partners";
 import { Classes } from "@/components/Classes";
 import { HaveAllah } from "@/components/HaveAllah";
 import { Footer } from "@/components/Footer";
+import { FAQ } from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
       <Partners />
 
       <Classes />
+
+      <FAQ />
 
       <HaveAllah />
 
