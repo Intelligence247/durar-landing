@@ -9,6 +9,7 @@ export function TopicsCards({ topicsCardsInfo }: TopicsCardProps) {
     <div className="flex justify-between items-center gap-8">
       {topicsCardsInfo.map((topicsCardInfo) => (
         <TopicsCard
+          key={topicsCardInfo.id}
           id={topicsCardInfo.id}
           image={topicsCardInfo.image}
           heading={topicsCardInfo.heading}
