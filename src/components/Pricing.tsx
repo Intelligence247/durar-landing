@@ -28,10 +28,10 @@ const pricingsContent = [
 export function Pricing() {
   return (
     <section className="pt-24 pb-36">
-      <div className="w-full px-8 xl:px-0 xl:w-5/6 mx-auto text-center">
+      <div className="w-full px-4 md:px-8 xl:px-0 xl:w-5/6 mx-auto text-center">
         <SectionBadge label="Pricing" />
 
-        <h2 className="text-darkgreen font-semibold text-3xl leading-10 mt-8">No credit card required</h2>
+        <h2 className="text-darkgreen font-semibold text-xl md:text-3xl md:leading-10 mt-8">No credit card required</h2>
 
         <div className="mt-14 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-9 lg:gap-4 xl:gap-9 max-lg:max-w-[480px] max-lg:mx-auto">
           {pricingsContent.map((pricingContent, index) => (
@@ -41,13 +41,13 @@ export function Pricing() {
                 "bg-[#FFF7ED] border border-black/5 rounded-3xl px-3 pt-3 pb-7 lg:basis-1/3 text-left",
                 index === 1 && "bg-darkgreen border-0"
               )}>
-              <div className={cn("bg-white rounded-xl p-7 lg:p-4 xl:p-7 flex items-end justify-between", index === 1 && "bg-[#FFF7ED]")}>
+              <div className={cn("bg-white rounded-xl p-4 md:p-7 lg:p-4 xl:p-7 flex items-end justify-between", index === 1 && "bg-[#FFF7ED]")}>
                 <div className="flex justify-between text-darkgreen flex-col gap-9">
                   <p className="text-xs">Subscription</p>
 
-                  <h3 className="text-xl font-semibold">{pricingContent.for}</h3>
+                  <h3 className="text-lg md:text-xl font-semibold">{pricingContent.for}</h3>
 
-                  <p className="text-2xl font-medium flex items-center">
+                  <p className="text-xl md:text-2xl font-medium flex items-center">
                     {index === 3 ? (
                       "Custom"
                     ) : (
@@ -60,7 +60,7 @@ export function Pricing() {
 
                 <button
                   className={cn(
-                    "rounded-full text-center text-[#FCFCFC] font-semibold px-6 py-3 text-xs leading-3 bg-darkgreen hover:bg-darkgreen/80 active:bg-darkgreen visited:bg-darkgreen transition",
+                    "rounded-full text-center text-[#FCFCFC] font-semibold px-3 md:px-6 py-3 text-xs leading-3 bg-darkgreen hover:bg-darkgreen/80 active:bg-darkgreen visited:bg-darkgreen transition",
                     index === 1 && "bg-orange hover:bg-orange/80 active:bg-orange visited:bg-orange"
                   )}>
                   Get started

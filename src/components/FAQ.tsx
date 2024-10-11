@@ -28,14 +28,14 @@ const FAQContents = [
 export function FAQ() {
   return (
     <section className="bg-white pt-28 pb-32">
-      <div className="w-4/5 lg:w-3/5 mx-auto text-center relative">
-        <Image src={"magnifyingglass.svg"} width={99} height={99} className="absolute -top-9 -left-8 lg:-left-12" alt="Decorator Icon" />
-        <Image src={"exclamation.svg"} width={75} height={75} className="absolute -bottom-20 lg:-bottom-3 -right-14 lg:-right-28" alt="Decorator Icon" />
+      <div className="mx-4 md:w-4/5 lg:w-3/5 md:mx-auto text-center relative">
+        <Image src={"magnifyingglass.svg"} width={99} height={99} className="hidden md:absolute -top-9 -left-8 lg:-left-12" alt="Decorator Icon" />
+        <Image src={"exclamation.svg"} width={75} height={75} className="hidden md:absolute -bottom-20 lg:-bottom-3 -right-14 lg:-right-28" alt="Decorator Icon" />
 
         <SectionBadge label="FAQ" />
 
         <div className="mt-9">
-          <h3 className="mb-10 font-semibold text-3xl leading-[45px] text-darkgreen">Common questions you may have</h3>
+          <h3 className="mb-10 font-semibold text-xl md:text-3xl md:leading-[45px] text-darkgreen">Common questions you may have</h3>
 
           <div className="text-left">
             <Accordion type="single" collapsible>

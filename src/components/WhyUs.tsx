@@ -23,7 +23,7 @@ const whyUsCardDetails = [
 
 export function WhyUs() {
   return (
-    <section className="px-12 xl:px-24 py-32 bg-white">
+    <section className="px-4 md:px-12 xl:px-24 py-32 bg-white">
       <div className="w-full max-w-[1200px] mx-auto text-center">
         <SectionBadge label="Why choose Us" />
 
@@ -33,17 +33,17 @@ export function WhyUs() {
             height={62}
             alt={"Decorator Icon"}
             src={"checkcircle.svg"}
-            className="absolute -top-20 lg:-top-14 left-24 lg:left-32"
+            className="hidden md:absolute -top-20 lg:-top-14 left-24 lg:left-32"
           />
           <Image
             width={90}
             height={90}
             alt={"Decorator Icon"}
             src={"achievementcup.svg"}
-            className="absolute right-0 lg:right-12 -top-24 lg:top-14"
+            className="hidden md:absolute right-0 lg:right-12 -top-24 lg:top-14"
           />
 
-          <h2 className="w-4/5 lg:w-3/5 mx-auto text-darkgreen font-semibold text-[40px] lg:text-[50px] leading-[50px] lg:leading-[75px]">
+          <h2 className="md:w-4/5 lg:w-3/5 mx-auto text-darkgreen font-semibold text-2xl md:text-[40px] lg:text-[50px] md:leading-[50px] lg:leading-[75px]">
             Can’t fit learning into your <span className="text-orange">busy</span> schedule and you want to learn
             <span className="text-orange"> from expert?</span>
           </h2>

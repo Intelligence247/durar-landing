@@ -60,15 +60,15 @@ export function Topics() {
   const [isBeginners, setIsBeginners] = useState(true);
 
   return (
-    <section className="pt-12 pb-40 px-8 xl:px-20 text-center bg-container-2">
+    <section className="pt-12 pb-40 px-4 md:px-8 xl:px-20 text-center bg-container-2">
       <SectionBadge label="Classes" inverse={true} />
 
-      <h2 className="text-white font-semibold text-3xl leading-10 mt-14 max-w-[548px] mx-auto">
+      <h2 className="text-white font-semibold text-xl md:text-3xl md:leading-10 mt-14 max-w-[548px] mx-auto">
         Structured classes tailored to suit your learning
       </h2>
 
       <div className="mt-16">
-        <div className="mb-12 lg:mb-20 w-fit mx-auto">
+        <div className="mb-12 lg:mb-20 md:w-fit mx-auto">
           <TopicsSwitch setDisplay={setIsBeginners} />
         </div>
 

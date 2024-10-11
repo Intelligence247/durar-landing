@@ -21,8 +21,8 @@ const processContents = [
 
 export function Process() {
   return (
-    <section className="-mt-20 mb-14 px-12 xl:px-0">
-      <div className="relative mx-auto max-w-[1200px] pt-12 px-12 xl:px-[80px] pb-28 text-center rounded-[40px] bg-[#FEF9F3] border border-orange/50">
+    <section className="-mt-20 mb-14 px-4 md:px-12 xl:px-0">
+      <div className="relative mx-auto max-w-[1200px] pt-12 px-4 md:px-12 xl:px-[80px] pb-28 text-center rounded-[40px] bg-[#FEF9F3] border border-orange/50">
         <Image
           width={69}
           height={69}
@@ -33,7 +33,7 @@ export function Process() {
 
         <SectionBadge label="Process" />
 
-        <h2 className="text-darkgreen font-semibold text-3xl leading-10 mt-12">Get started in 3 simple steps</h2>
+        <h2 className="text-darkgreen font-semibold text-xl md:text-3xl md:leading-10 mt-12">Get started in 3 simple steps</h2>
 
         <div className="mt-10 flex justify-between gap-6 flex-col max-lg:max-w-[480px] max-lg:mx-auto items-center lg:items-stretch lg:flex-row">
           {processContents.map((processContent, index) => (
