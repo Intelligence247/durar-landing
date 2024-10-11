@@ -2,8 +2,94 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body,
+:root {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Poppins", sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.bg-container {
+  background-image: linear-gradient(rgb(255, 249, 242, 1), rgb(255, 249, 242, 1)), url("/image2.svg");
+  background-blend-mode: lighten;
+  background-size: cover;
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-container-1 {
+  background-image: linear-gradient(rgb(255, 249, 242, 1), rgb(255, 249, 242, 1)), url("/image1.svg");
+  background-blend-mode: lighten;
+  background-size: cover;
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-container-2 {
+  background-image: linear-gradient(rgb(23, 58, 1), rgb(23, 58, 1)), url("/image1.svg");
+  background-blend-mode: multiply;
+  background-size: cover;
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+input[type="radio"]:checked + label {
+  color: white;
+}
+
+input[id="radio-1"]:checked ~ .glider {
+  transform: translateX(0);
+}
+
+input[id="radio-2"]:checked ~ .glider {
+  transform: translateX(100%);
 }
 
 @layer utilities {
