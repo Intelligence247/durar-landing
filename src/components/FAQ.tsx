@@ -28,9 +28,9 @@ const FAQContents = [
 export function FAQ() {
   return (
     <section className="bg-white pt-28 pb-32">
-      <div className="w-3/5 mx-auto text-center relative">
-        <Image src={"magnifyingglass.svg"} width={99} height={99} className="absolute -top-9 -left-12" alt="Decorator Icon" />
-        <Image src={"exclamation.svg"} width={75} height={75} className="absolute -bottom-3 -right-28" alt="Decorator Icon" />
+      <div className="w-4/5 lg:w-3/5 mx-auto text-center relative">
+        <Image src={"magnifyingglass.svg"} width={99} height={99} className="absolute -top-9 -left-8 lg:-left-12" alt="Decorator Icon" />
+        <Image src={"exclamation.svg"} width={75} height={75} className="absolute -bottom-20 lg:-bottom-3 -right-14 lg:-right-28" alt="Decorator Icon" />
 
         <SectionBadge label="FAQ" />
 
@@ -41,7 +41,7 @@ export function FAQ() {
             <Accordion type="single" collapsible>
               <div className="flex flex-col gap-10">
                 {FAQContents.map((FAQContent, index) => (
-                  <AccordionItem value={`item-${index}`} key={index}>
+                  <AccordionItem value={`item-${index}`} key={index} className="">
                     <AccordionTrigger>{FAQContent.question}</AccordionTrigger>
                     <AccordionContent>{FAQContent.answer}</AccordionContent>
                   </AccordionItem>

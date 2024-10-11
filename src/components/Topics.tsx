@@ -68,7 +68,7 @@ export function Topics() {
       </h2>
 
       <div className="mt-16">
-        <div className="mb-20 w-fit mx-auto">
+        <div className="mb-12 lg:mb-20 w-fit mx-auto">
           <TopicsSwitch setDisplay={setIsBeginners} />
         </div>
 

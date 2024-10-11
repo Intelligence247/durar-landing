@@ -5,7 +5,7 @@ import { VideoPlayer } from "@/components/VideoPlayer";
 
 export function Hero() {
   return (
-    <section className="w-full max-w-[864px] mx-auto flex flex-col items-center gap-10 text-center mt-14">
+    <section className="w-full max-lg:px-8 max-w-[864px] mx-auto flex flex-col items-center gap-10 text-center mt-14">
       <div className="text-darkgreen">
         <h1 className="font-semibold text-[60px] leading-[75px]">Attend Modrosah in your house at your time</h1>
 
@@ -21,13 +21,13 @@ export function Hero() {
       <div className="relative w-full">
         <VideoPlayer />
 
-        <Image src={"/quote.svg"} className="absolute -top-12 -left-6" width={38} height={38} alt="Decoration Icon" />
+        <Image src={"/quote.svg"} className="absolute -top-12 -left-6 hidden lg:block" width={38} height={38} alt="Decoration Icon" />
 
-        <Image src={"/zigzag.svg"} className="absolute bottom-6 -left-4" width={83} height={83} alt="Decoration Icon" />
+        <Image src={"/zigzag.svg"} className="absolute bottom-6 -left-4 hidden lg:block" width={83} height={83} alt="Decoration Icon" />
 
-        <Image src={"/quote.svg"} className="rotate-180 absolute -bottom-12 -right-6" width={38} height={38} alt="Decoration Icon" />
+        <Image src={"/quote.svg"} className="rotate-180 absolute -bottom-12 -right-6 hidden lg:block" width={38} height={38} alt="Decoration Icon" />
 
-        <Image src={"/effect.svg"} className="absolute -top-12 -right-14" width={110} height={110} alt="Decoration Icon" />
+        <Image src={"/effect.svg"} className="absolute -top-12 -right-14 hidden lg:block" width={110} height={110} alt="Decoration Icon" />
       </div>
     </section>
   );

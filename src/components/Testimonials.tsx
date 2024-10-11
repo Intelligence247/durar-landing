@@ -53,8 +53,8 @@ const testimonialsContent = [
 export function Testimonials() {
   return (
     <section className="py-20 relative text-center bg-container-1">
-      <Image src={"achievementbadge.svg"} width={63} height={63} className="absolute top-28 left-52" alt="Decorator Icon" />
-      <Image src={"heart.svg"} width={68} height={68} className="absolute top-16 right-36" alt="Decorator Icon" />
+      <Image src={"achievementbadge.svg"} width={63} height={63} className="absolute top-28 left-20 lg:left-52" alt="Decorator Icon" />
+      <Image src={"heart.svg"} width={68} height={68} className="absolute top-16 right-12 lg:right-36" alt="Decorator Icon" />
 
       <SectionBadge label="Testimonials" />
 
@@ -64,7 +64,7 @@ export function Testimonials() {
             <CarouselItem
               key={index}
               className={cn(
-                "max-w-[580px] basis-2/5 rounded-3xl px-12 py-16 text-white flex flex-col gap-5",
+                "max-w-[580px] basis-4/5 lg:basis-2/5 rounded-3xl px-12 py-16 text-white flex flex-col gap-5",
                 index % 2 === 0 ? "bg-orange" : "bg-darkgreen"
               )}>
               <div className="flex items-center gap-5">
@@ -83,7 +83,7 @@ export function Testimonials() {
           ))}
         </CarouselContent>
 
-        <div className="flex gap-4 w-fit ml-auto mr-32 mt-16">
+        <div className="flex gap-4 w-fit lg:ml-auto lg:mr-32 mx-auto mt-16">
           <CarouselPrevious className="relative left-0 top-0 translate-y-0 h-12 w-12 text-white hover:text-white bg-orange border-orange hover:bg-orange/90">
             <ArrowLeft className="w-6 h-6" />
           </CarouselPrevious>

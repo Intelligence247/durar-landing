@@ -28,15 +28,27 @@ export function WhyUs() {
         <SectionBadge label="Why choose Us" />
 
         <div className="mt-14 relative">
-          <Image width={62} height={62} alt={"Decorator Icon"} src={"checkcircle.svg"} className="absolute -top-14 left-32" />
-          <Image width={90} height={90} alt={"Decorator Icon"} src={"achievementcup.svg"} className="absolute right-12 top-14" />
+          <Image
+            width={62}
+            height={62}
+            alt={"Decorator Icon"}
+            src={"checkcircle.svg"}
+            className="absolute -top-20 lg:-top-14 left-24 lg:left-32"
+          />
+          <Image
+            width={90}
+            height={90}
+            alt={"Decorator Icon"}
+            src={"achievementcup.svg"}
+            className="absolute right-0 lg:right-12 -top-24 lg:top-14"
+          />
 
-          <h2 className="w-3/5 mx-auto text-darkgreen font-semibold text-[50px] leading-[75px]">
+          <h2 className="w-4/5 lg:w-3/5 mx-auto text-darkgreen font-semibold text-[40px] lg:text-[50px] leading-[50px] lg:leading-[75px]">
             Can’t fit learning into your <span className="text-orange">busy</span> schedule and you want to learn
             <span className="text-orange"> from expert?</span>
           </h2>
 
-          <div className="mt-20 w-full flex justify-between gap-8 xl:gap-16 h-80">
+          <div className="mt-20 w-full flex flex-col lg:flex-row justify-between gap-8 xl:gap-16 h-full lg:h-80 max-lg:max-w-[480px] max-lg:mx-auto">
             {whyUsCardDetails.map((whyUsCardDetail, index) => (
               <div key={index} className="h-full">
                 <WhyUsCard icon={whyUsCardDetail.icon} heading={whyUsCardDetail.heading} content={whyUsCardDetail.content} />

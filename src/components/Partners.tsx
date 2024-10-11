@@ -8,7 +8,7 @@ export function Partners() {
       <div className="mx-auto flex items-center opacity-75 flex-wrap justify-center gap-12 w-11/12 xl:justify-between xl:gap-20 xl:w-5/6">
         <h3 className="font-semibold text-white text-2xl leading-9 shrink-0">Our partners</h3>
 
-        <div className="flex items-center gap-10">
+        <div className="flex max-lg:justify-center items-center gap-10 flex-wrap lg:flex-nowrap">
           {companiesImage.map((companyImage, index) => (
             <Image key={index} src={companyImage} alt={`Our Partner ${index}`} width={146} height={42} />
           ))}

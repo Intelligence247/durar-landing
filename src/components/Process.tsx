@@ -35,9 +35,9 @@ export function Process() {
 
         <h2 className="text-darkgreen font-semibold text-3xl leading-10 mt-12">Get started in 3 simple steps</h2>
 
-        <div className="mt-10 flex justify-between">
+        <div className="mt-10 flex justify-between gap-6 flex-col max-lg:max-w-[480px] max-lg:mx-auto items-center lg:items-stretch lg:flex-row">
           {processContents.map((processContent, index) => (
-            <div className="flex flex-col items-center max-w-[225px]" key={index}>
+            <div className="flex flex-col items-center lg:max-w-[225px]" key={index}>
               <p className="h-11 w-11 rounded-full bg-orange text-white flex justify-center items-center text-[28px] leading-[42px] font-semibold">
                 {processContent.id}
               </p>

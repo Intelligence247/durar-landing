@@ -4,7 +4,7 @@ interface TopicsSwitchProps {
 
 export function TopicsSwitch({ setDisplay }: TopicsSwitchProps) {
   return (
-    <div className="container flex items-center justify-center">
+    <div className="container flex items-center justify-center scale-90 lg:scale-100">
       <div className="tabs flex relative bg-[#FFEFDC] rounded-full p-2">
         <>
           <input type="radio" id="radio-1" name="tabs" defaultChecked className="hidden" onClick={() => setDisplay(true)} />

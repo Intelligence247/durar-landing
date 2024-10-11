@@ -33,15 +33,15 @@ export function Pricing() {
 
         <h2 className="text-darkgreen font-semibold text-3xl leading-10 mt-8">No credit card required</h2>
 
-        <div className="mt-14 text-left flex items-center justify-between gap-4 xl:gap-9">
+        <div className="mt-14 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-9 lg:gap-4 xl:gap-9 max-lg:max-w-[480px] max-lg:mx-auto">
           {pricingsContent.map((pricingContent, index) => (
             <div
               key={index}
               className={cn(
-                "bg-[#FFF7ED] border border-black/5 rounded-3xl px-3 pt-3 pb-7 basis-1/3",
+                "bg-[#FFF7ED] border border-black/5 rounded-3xl px-3 pt-3 pb-7 lg:basis-1/3 text-left",
                 index === 1 && "bg-darkgreen border-0"
               )}>
-              <div className={cn("bg-white rounded-xl p-4 xl:p-7 flex items-end justify-between", index === 1 && "bg-[#FFF7ED]")}>
+              <div className={cn("bg-white rounded-xl p-7 lg:p-4 xl:p-7 flex items-end justify-between", index === 1 && "bg-[#FFF7ED]")}>
                 <div className="flex justify-between text-darkgreen flex-col gap-9">
                   <p className="text-xs">Subscription</p>
 
