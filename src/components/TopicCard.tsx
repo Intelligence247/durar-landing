@@ -10,9 +10,9 @@ export interface TopicCardProps {
   level: string;
 }
 
-export function TopicsCard({ id, image, heading, paragraph, level }: TopicCardProps) {
+export function TopicsCard({ image, heading, paragraph, level }: TopicCardProps) {
   return (
-    <div className={cn("bg-white rounded-[40px] p-6 md:p-8 text-left md:w-4/5 max-w-[480px] lg:w-full lg:max-w-[420px]", id === 2 ? "scale-100" : "lg:scale-90")}>
+    <div className={cn("bg-white rounded-[40px] px-4 py-6 md:px-6 md:py-8 text-left md:w-4/5 max-w-[480px] lg:w-full lg:max-w-[420px]")}>
       <div className="relative rounded-[28px] w-full h-[210px] overflow-hidden">
         <Image src={image} alt={heading} fill sizes="auto" className="object-cover rounded-[28px]" />
 

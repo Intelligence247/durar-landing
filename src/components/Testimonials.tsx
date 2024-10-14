@@ -7,42 +7,42 @@ import { cn } from "@/lib/utils";
 
 const testimonialsContent = [
   {
-    image: "/male.svg",
+    image: "/male.webp",
     name: "Uthman Sodeeq",
     title: "Student, Qur’an Studies",
     remark:
       "Durar Academy has deepened my Qur'anic knowledge with flexible, high-quality lessons. The supportive community makes learning enjoyable and fulfilling.",
   },
   {
-    image: "/female.svg",
+    image: "/female.webp",
     name: "Fatima Mahmoud",
     title: "Parent of a Student",
     remark:
       "My daughter has made incredible progress in Qur'an memorization. The interactive lessons and dedicated instructors make learning both effective and enjoyable.",
   },
   {
-    image: "/male.svg",
+    image: "/male.webp",
     name: "Uthman Sodeeq",
     title: "Student, Qur’an Studies",
     remark:
       "Durar Academy has deepened my Qur'anic knowledge with flexible, high-quality lessons. The supportive community makes learning enjoyable and fulfilling.",
   },
   {
-    image: "/female.svg",
+    image: "/female.webp",
     name: "Fatima Mahmoud",
     title: "Parent of a Student",
     remark:
       "My daughter has made incredible progress in Qur'an memorization. The interactive lessons and dedicated instructors make learning both effective and enjoyable.",
   },
   {
-    image: "/male.svg",
+    image: "/male.webp",
     name: "Uthman Sodeeq",
     title: "Student, Qur’an Studies",
     remark:
       "Durar Academy has deepened my Qur'anic knowledge with flexible, high-quality lessons. The supportive community makes learning enjoyable and fulfilling.",
   },
   {
-    image: "/female.svg",
+    image: "/female.webp",
     name: "Fatima Mahmoud",
     title: "Parent of a Student",
     remark:

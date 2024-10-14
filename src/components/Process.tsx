@@ -5,7 +5,7 @@ const processContents = [
   {
     id: 1,
     header: "Click on Get started",
-    content: "Check all the sections of our website page here and click the get started button  to book a session.",
+    content: "Check all the sections of our website and click the get started button to book a session",
   },
   {
     id: 2,
@@ -37,8 +37,8 @@ export function Process() {
 
         <div className="mt-10 flex justify-between gap-6 flex-col max-lg:max-w-[480px] max-lg:mx-auto items-center lg:items-stretch lg:flex-row">
           {processContents.map((processContent, index) => (
-            <div className="flex flex-col items-center lg:max-w-[225px]" key={index}>
-              <p className="h-11 w-11 rounded-full bg-orange text-white flex justify-center items-center text-[28px] leading-[42px] font-semibold">
+            <div className="flex flex-col items-center lg:max-w-[300px]" key={index}>
+              <p className="h-11 w-11 rounded-full bg-orange text-white flex justify-center items-center text-xl md:text-[28px] md:leading-[42px] font-semibold">
                 {processContent.id}
               </p>
 

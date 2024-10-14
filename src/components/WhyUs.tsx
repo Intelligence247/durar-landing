@@ -12,7 +12,7 @@ const whyUsCardDetails = [
   {
     heading: "Expert Instructors",
     icon: "/user.svg",
-    content: "Our courses are taught by highly qualified and teachers with extensive knowledge of the Qur'an and Islamic heritage.",
+    content: "Our courses are taught by highly qualified and teachers with extensive knowledge of the Qur'an and Islamic Cultures.",
   },
   {
     heading: "Structured Curriculum",
@@ -43,15 +43,15 @@ export function WhyUs() {
             className="hidden md:absolute right-0 lg:right-12 -top-24 lg:top-14"
           />
 
-          <h2 className="md:w-4/5 lg:w-3/5 mx-auto text-darkgreen font-semibold text-2xl md:text-[40px] lg:text-[50px] md:leading-[50px] lg:leading-[75px]">
+          <h2 className="md:w-4/5 lg:w-3/5 mx-auto text-darkgreen font-semibold text-2xl md:text-[36px] lg:text-[48px] md:leading-[50px] lg:leading-[75px]">
             Can’t fit learning into your <span className="text-orange">busy</span> schedule and you want to learn
-            <span className="text-orange"> from expert?</span>
+            <span className="text-orange"> from experts?</span>
           </h2>
 
-          <div className="mt-20 w-full flex flex-col lg:flex-row justify-between gap-8 xl:gap-16 h-full lg:h-80 max-lg:max-w-[480px] max-lg:mx-auto">
+          <div className="mt-20 w-full flex flex-col lg:flex-row justify-between items-center gap-8 xl:gap-16 max-lg:max-w-[480px] max-lg:mx-auto">
             {whyUsCardDetails.map((whyUsCardDetail, index) => (
               <div key={index} className="h-full">
-                <WhyUsCard icon={whyUsCardDetail.icon} heading={whyUsCardDetail.heading} content={whyUsCardDetail.content} />
+                <WhyUsCard index={index} icon={whyUsCardDetail.icon} heading={whyUsCardDetail.heading} content={whyUsCardDetail.content} />
               </div>
             ))}
           </div>

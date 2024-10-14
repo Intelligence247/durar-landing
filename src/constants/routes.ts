@@ -42,19 +42,19 @@ export const footerLinks = [
 
 export const socialLinks = [
   {
-    url: "twitter.com",
+    url: "https://x.com/Durar_Academy?t=d5_JHd0MzcFnQA3ymcg0cg&s=09",
     icon: "/twitter.svg",
   },
   {
-    url: "facebook.com",
+    url: "https://www.facebook.com/share/DZXxRfvbwCo5RJYN/",
     icon: "/facebook.svg",
   },
   {
-    url: "instagram.com",
+    url: "https://www.instagram.com/duraracademy_1/",
     icon: "/instagram.svg",
   },
   {
-    url: "linkedin.com",
+    url: "https://www.tiktok.com/@durar_academy?_t=8qWFQ0ljUOr&_r=1",
     icon: "/linkedin.svg",
   },
 ];

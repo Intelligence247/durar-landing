@@ -38,7 +38,7 @@ export function Pricing() {
             <div
               key={index}
               className={cn(
-                "bg-[#FFF7ED] border border-black/5 rounded-3xl px-3 pt-3 pb-7 lg:basis-1/3 text-left",
+                "bg-[#FFF7ED] border border-black/5 rounded-3xl px-3 pt-3 pb-7 basis-1/3 text-left",
                 index === 1 && "bg-darkgreen border-0"
               )}>
               <div

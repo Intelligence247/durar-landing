@@ -54,7 +54,7 @@ h6 {
 }
 
 .bg-container {
-  background-image: linear-gradient(rgb(255, 249, 242, 1), rgb(255, 249, 242, 1)), url("/image2.svg");
+  background-image: linear-gradient(rgb(255, 249, 242, 1), rgb(255, 249, 242, 1)), url("/image2.webp");
   background-blend-mode: lighten;
   background-size: cover;
 
@@ -63,7 +63,7 @@ h6 {
 }
 
 .bg-container-1 {
-  background-image: linear-gradient(rgb(255, 249, 242, 1), rgb(255, 249, 242, 1)), url("/image1.svg");
+  background-image: linear-gradient(rgb(255, 249, 242, 1), rgb(255, 249, 242, 1)), url("/image1.webp");
   background-blend-mode: lighten;
   background-size: cover;
 
@@ -72,7 +72,7 @@ h6 {
 }
 
 .bg-container-2 {
-  background-image: linear-gradient(rgb(23, 58, 1), rgb(23, 58, 1)), url("/image1.svg");
+  background-image: linear-gradient(rgb(23, 58, 1), rgb(23, 58, 1)), url("/image1.webp");
   background-blend-mode: multiply;
   background-size: cover;
 

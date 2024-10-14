@@ -50,7 +50,7 @@ export function FAQ() {
           <h3 className="mb-10 font-semibold text-xl md:text-3xl md:leading-[45px] text-darkgreen">Common questions you may have</h3>
 
           <div className="text-left">
-            <Accordion type="single" collapsible>
+            <Accordion type="multiple">
               <div className="flex flex-col gap-10">
                 {FAQContents.map((FAQContent, index) => (
                   <AccordionItem value={`item-${index}`} key={index} className="">

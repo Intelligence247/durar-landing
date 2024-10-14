@@ -6,7 +6,8 @@ export function HaveAllah() {
   return (
     <section className="bg-container">
       <div className="text-center py-20 relative px-4 mdpx-0 md:w-4/5 lg:w-3/5 xl:w-2/5 mx-auto">
-        <h3 className="text-darkgreen font-semibold text-xl md:text-[32px] md:leading-[48px] mb-10">Having knowledge of Allah takes care of your DEEN</h3>
+        <h3 className="text-darkgreen font-semibold text-xl md:text-[32px] md:leading-[48px] mb-10">
+          Seeking Islamic Knowledge safeguards your DEEN</h3>
 
         <CallToActionButton />
 

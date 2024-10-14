@@ -9,7 +9,14 @@ export function Footer() {
       <div className="lg:w-11/12 mx-auto flex flex-col gap-5 lg:gap-0 lg:flex-row justify-between md:items-center">
         <div className="">
           <Link href="/">
-            <Image alt="Durar Logo" width={220} height={70} src="/durar-white.svg" className="-ml-7 md:ml-0 scale-75 lg:scale-75 xl:scale-100" />
+            <Image
+              alt="Durar Logo"
+              width={220}
+              height={70}
+              src="/durar-white.svg"
+              className="-ml-7 md:ml-0 scale-75 lg:scale-75 xl:scale-100"
+              priority
+            />
           </Link>
         </div>
 

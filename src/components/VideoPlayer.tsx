@@ -28,7 +28,7 @@ export function VideoPlayer() {
         {/* PLAY BUTTON */}
         {!isPlaying && (
           <div className="absolute inset-0 bg-black/50 rounded-[40px] flex justify-center items-center">
-            <button type="button" className="relative bg-white rounded-full w-[120px] h-[120px]" onClick={handlePlay}>
+            <button type="button" className="relative bg-white rounded-full w-[120px] h-[120px] scale-50 md:scale-75 lg:scale-100" onClick={handlePlay}>
               <Image
                 src={"/play.svg"}
                 alt="Play Icon"

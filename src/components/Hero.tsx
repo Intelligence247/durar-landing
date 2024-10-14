@@ -7,10 +7,12 @@ export function Hero() {
   return (
     <section className="w-full px-4 md:px-8 max-w-[864px] mx-auto flex flex-col items-center gap-10 text-center mt-14">
       <div className="text-darkgreen">
-        <h1 className="font-semibold text-[32px] leading-8 md:text-[60px] md:leading-[75px]">Attend Modrosah in your house at your time</h1>
+        <h1 className="font-semibold text-[30px] leading-8 md:text-[48px] md:leading-[60px] lg:text-[60px] lg:leading-[75px]">
+          Attend Madrasah in the comfort of your home at your convenience
+        </h1>
 
         <p className="mt-5 font-medium text-sm md:text-xl md:leading-8 md:w-4/5 mx-auto">
-          Durar academy is a platform for learning Qu’ran and islamic heritage without leaving your house
+          Durar academy is an institution for learning the Qu’ran and Islamic cultures
         </p>
 
         <div className="mt-10">
