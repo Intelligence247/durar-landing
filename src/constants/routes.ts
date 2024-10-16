@@ -55,6 +55,6 @@ export const socialLinks = [
   },
   {
     url: "https://www.tiktok.com/@durar_academy?_t=8qWFQ0ljUOr&_r=1",
-    icon: "/linkedin.svg",
+    icon: "/tiktok.svg",
   },
 ];

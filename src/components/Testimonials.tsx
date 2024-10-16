@@ -8,52 +8,51 @@ import { cn } from "@/lib/utils";
 const testimonialsContent = [
   {
     image: "/male.webp",
-    name: "Uthman Sodeeq",
-    title: "Student, Qur’an Studies",
+    name: "Binnal Mukhtar",
+    title: "Dubai",
     remark:
-      "Durar Academy has deepened my Qur'anic knowledge with flexible, high-quality lessons. The supportive community makes learning enjoyable and fulfilling.",
+      "I enrolled my sons, Meer and Afan, at Durar Academy, and the results have been incredible. They can now read the Qur'an and understand basic Arabic expressions. I appreciate the academy's excellent teaching.",
   },
   {
     image: "/female.webp",
-    name: "Fatima Mahmoud",
-    title: "Parent of a Student",
+    name: "Lawal Surat Abiodun",
+    title: "Nigeria",
     remark:
-      "My daughter has made incredible progress in Qur'an memorization. The interactive lessons and dedicated instructors make learning both effective and enjoyable.",
+      "I never thought I could learn to recite the Qur'an, especially starting so late in life. But in just four months, Durar Academy helped me achieve that dream. The support and patience of my teachers made all the difference in just 4 months. I'm so grateful!",
   },
   {
     image: "/male.webp",
-    name: "Uthman Sodeeq",
-    title: "Student, Qur’an Studies",
+    name: "Balogun Nurudeen",
+    title: "United States of America",
     remark:
-      "Durar Academy has deepened my Qur'anic knowledge with flexible, high-quality lessons. The supportive community makes learning enjoyable and fulfilling.",
+      "I enrolled my two daughters and son at Durar Academy with no prior knowledge of Arabic. Now, they not only read and write it but have completely fallen in love with the language. I'm truly impressed by their progress!",
   },
   {
     image: "/female.webp",
-    name: "Fatima Mahmoud",
-    title: "Parent of a Student",
+    name: "Asiyah Omolara ",
+    title: "United Kingdom",
     remark:
-      "My daughter has made incredible progress in Qur'an memorization. The interactive lessons and dedicated instructors make learning both effective and enjoyable.",
-  },
-  {
-    image: "/male.webp",
-    name: "Uthman Sodeeq",
-    title: "Student, Qur’an Studies",
-    remark:
-      "Durar Academy has deepened my Qur'anic knowledge with flexible, high-quality lessons. The supportive community makes learning enjoyable and fulfilling.",
+      "I enrolled both my 2 kids at Durar Academy, and despite balancing their Western education, they can now recite the Qur'an fluently. The progress they’ve made is truly amazing, and I’m so thankful for the academy’s support.",
   },
   {
     image: "/female.webp",
-    name: "Fatima Mahmoud",
-    title: "Parent of a Student",
+    name: "Feryal Behboodi",
+    title: "Bahrain",
     remark:
-      "My daughter has made incredible progress in Qur'an memorization. The interactive lessons and dedicated instructors make learning both effective and enjoyable.",
+      "I joined Durar Academy with only basic Arabic knowledge. Now, I can recite the Qur'an and understand the Arabic language much better. It was quite challenging but the improvement has been remarkable!",
   },
 ];
 
 export function Testimonials() {
   return (
     <section id="testimonials" className="-scroll-m-16 py-20 relative text-center bg-container-1">
-      <Image src={"achievementbadge.svg"} width={63} height={63} className="hidden md:absolute top-28 left-20 lg:left-52" alt="Decorator Icon" />
+      <Image
+        src={"achievementbadge.svg"}
+        width={63}
+        height={63}
+        className="hidden md:absolute top-28 left-20 lg:left-52"
+        alt="Decorator Icon"
+      />
       <Image src={"heart.svg"} width={68} height={68} className="hidden md:absolute top-16 right-12 lg:right-36" alt="Decorator Icon" />
 
       <SectionBadge label="Testimonials" />

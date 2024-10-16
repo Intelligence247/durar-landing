@@ -36,8 +36,8 @@ export function Footer() {
               className="flex justify-center items-center bg-white border-2 border-orange rounded-full w-11 h-11 scale-75 md:scale-90 xl:scale-100">
               <Image
                 src={socialLink.icon}
-                width={socialLink.icon === "/facebook.svg" ? 12 : 20}
-                height={socialLink.icon === "/facebook.svg" ? 24 : 20}
+                width={socialLink.icon === "/facebook.svg" ? 12 : socialLink.icon === "/tiktok.svg" ? 24 : 20}
+                height={socialLink.icon === "/facebook.svg" ? 24 : socialLink.icon === "/tiktok.svg" ? 24 : 20}
                 alt="Social Link Icon"
                 className="object-contain"
               />

@@ -31,7 +31,7 @@ export function Pricing() {
       <div className="w-full px-4 md:px-8 xl:px-0 xl:w-5/6 mx-auto text-center">
         <SectionBadge label="Pricing" />
 
-        <h2 className="text-darkgreen font-semibold text-xl md:text-3xl md:leading-10 mt-8">No credit card required</h2>
+        <h2 className="text-darkgreen font-semibold text-xl md:text-3xl md:leading-10 mt-8">Credit card required</h2>
 
         <div className="mt-14 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-9 lg:gap-4 xl:gap-9 max-lg:max-w-[480px] max-lg:mx-auto">
           {pricingsContent.map((pricingContent, index) => (
